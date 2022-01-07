@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Build the hello-world Docker image
+    - name: Build the shopify-docker-images
       run: |
         echo $CR_PAT | docker login ghcr.io -u alexandresc --password-stdin
       env:
