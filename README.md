@@ -1,5 +1,9 @@
 # Deploy Shopify theme for GitHub Actions
 
+### Customized for private use of alexandresc
+
+Created own action and docker
+
 ### NEW since 2.2 : this action is now based on a pre-built image
 ```
 Using a pre-built image saved 115% of time on this action set-up
